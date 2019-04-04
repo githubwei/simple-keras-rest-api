@@ -1,3 +1,5 @@
+** Note (original contribution can be found at the article linked below, the reason I forked this repo is mainly because there was a bug introduced by Keras when running on web version with Flask. I noticed some PR to fix it but the author has not merged it since mid 2018)
+
 # A Simple Keras + deep learning REST API
 
 This repository contains the code for [*Building a simple Keras + deep learning REST API*](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html), published on the Keras.io blog.
@@ -17,7 +19,7 @@ $ pip install flask gevent requests
 Next, clone the repo:
 
 ```sh
-$ git clone https://github.com/jrosebr1/simple-keras-rest-api.git
+$ git clone https://github.com/githubwei/simple-keras-rest-api.git
 ```
 
 ## Starting the Keras server
